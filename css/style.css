@@ -1,0 +1,41 @@
+/* google font link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* common styles  */
+*{
+    font-family: 'Poppins', sans-serif; 
+}
+.header-txt-clr{
+    color:#3E3E3E;
+}
+nav{
+    min-height: 90px;
+}
+/* header style  */
+/* navbar styles */
+header{
+    min-height: 100vh;
+}
+.navbar-icon i{
+    font-size: 25px;
+}
+/* slider section starts here  */
+.slider-sec{
+    min-height: calc(100vh-56px);
+}
+.carousel-item img{
+    max-width: 100%;
+    max-height: calc(100vh - 90px);
+    object-fit: cover;
+    filter: brightness(50%);
+    
+}
+
+
+
+
+@media (max-width: 768px) {
+    .carousel-item img{
+        min-height: calc(100vh - 90px);
+    }
+}
