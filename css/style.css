@@ -43,6 +43,7 @@ nav{
 .package{
     margin:90px 0;
 }
+
 .tick-mark{
     background: rgba(82, 67, 194, 0.103693);
     color:#5243C2;
@@ -64,6 +65,20 @@ nav{
 
 
 /* media query starts here  */
+/* desktop device  */
+@media (min-width:992px) {
+    .package-title{
+        margin-bottom: 90px;
+    }
+    .card-item-3{
+        position: relative;
+        bottom:35px;
+    }
+    .card-3-body{
+        padding:23px 16px;
+    }
+}
+
 /* mobile device  */
 @media (max-width: 768px) {
     .carousel-item img{
