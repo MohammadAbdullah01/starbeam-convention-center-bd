@@ -74,7 +74,7 @@ nav{
 }
 .provide img{
     margin:0 auto;
-    max-width: 90px;
+    max-width: 300px;
 }
 /* questions section starts here  */
 .questions{
@@ -85,9 +85,6 @@ footer img{
     width: 135px;
     height: 40px;
 }
-
-
-
 
 
 /* media query starts here  */
@@ -111,6 +108,6 @@ footer img{
         min-height: calc(100vh - 90px);
     }
     .package-title{
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 }
