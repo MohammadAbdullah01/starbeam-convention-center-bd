@@ -15,6 +15,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- css style link  -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- font awesome kit link  -->
+    <script src="https://kit.fontawesome.com/d377e08739.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -44,7 +46,7 @@
                             next event</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                             consequat duis enim velit </p>
-                        <button class="text-success border-0 rounded-3 bg-white py-2 px-3">Book Now</button>
+                        <button class="text-success fw-bold border-0 rounded-3 bg-light py-2 px-4">Book Now</button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -54,7 +56,7 @@
                             next event</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                             consequat duis enim velit </p>
-                        <button class="text-success border-0 rounded-3 bg-white py-2 px-3">Book Now</button>
+                        <button class="text-success border-0 rounded-3 bg-light fw-bold py-2 px-3">Book Now</button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -64,7 +66,7 @@
                             next event</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                             consequat duis enim velit </p>
-                        <button class="text-success border-0 rounded-3 bg-white py-2 px-3">Book Now</button>
+                        <button class="text-success border-0 rounded-3 bg-light fw-bold py-2 px-3">Book Now</button>
                     </div>
                 </div>
             </div>
@@ -82,13 +84,158 @@
     </header>
     <!-- main starts here  -->
     <main>
+        <!-- photography section  -->
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-lg-5 order-2 order-lg-1">
+                    <div>
+                        <img class="img-fluid rounded" src="./images/main-images/photography.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 order-1 order-lg-2 d-flex justify-content-center ">
+                    <div class="d-flex flex-column justify-content-center position-relative">
+                        <h2 class="body-common-clr">Free photography offer is going on..</h2>
+                        <p class="lead">In this month we are providing free photography offer. Our offer will be closed
+                            on 31 January.
+                            So contact with us within this month to get this special offer.
+                        </p>
+                        <!--Blue variant -->
+                        <div class="toast bg-white text-dark fade show position-absolute top-0 end-0 toast-border">
+                            <div class="d-flex align-items-center toast-body bg-success text-white ">
+                                <span class="me-2">
+                                    <svg style="width:25px; color:white; display: inline-block;"
+                                        xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 d-inline-block" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+                                    </svg>
+                                </span>
+                                <strong class="me-auto"><i class="bi-gift-fill"></i>Here is our monthly offer !</strong>
+
+                                <!-- <small> 10
+                                    mins ago</small> -->
+                                <button type="button" class="btn-close ms-2 btn-close-white"
+                                    data-bs-dismiss="toast"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- package section starts here  -->
+        <section class="package">
+            <div class="container">
+                <h2 class="text-center body-common-clr mb-5">Our Package</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="body-common-clr">$300</h2>
+                                <h2 class="body-common-clr">Business fair</h2>
+                                <p class="text-muted">For most businesses event
+                                    like book fair, craft fair.</p>
+                                <p class="text-muted"><span><i class="far fa-check-circle tick-mark me-1"></i></span>
+                                    limited
+                                    space access</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>Secuirty
+                                    facility</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>event
+                                    support</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>Decoration design</p>
+                                <p class="text-muted"><span><i class="far fa-check-circle tick-mark me-1"></i></span>Per
+                                    day
+                                    bill</p>
+                                <button class="package-btn border-0">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="body-common-clr">$300</h2>
+                                <h2 class="body-common-clr">Business fair</h2>
+                                <p class="text-muted">For most businesses event
+                                    like book fair, craft fair.</p>
+                                <p class="text-muted"><span><i class="far fa-check-circle tick-mark me-1"></i></span>
+                                    limited
+                                    space access</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>Secuirty
+                                    facility</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>event
+                                    support</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>Decoration design</p>
+                                <p class="text-muted"><span><i class="far fa-check-circle tick-mark me-1"></i></span>Per
+                                    day
+                                    bill</p>
+                                <button class="package-btn border-0">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="body-common-clr">$300</h2>
+                                <h2 class="body-common-clr">Business fair</h2>
+                                <p class="text-muted">For most businesses event
+                                    like book fair, craft fair.</p>
+                                <p class="text-muted"><span><i class="far fa-check-circle tick-mark me-1"></i></span>
+                                    limited
+                                    space access</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>Secuirty
+                                    facility</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>event
+                                    support</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>Decoration design</p>
+                                <p class="text-muted"><span><i class="far fa-check-circle tick-mark me-1"></i></span>Per
+                                    day
+                                    bill</p>
+                                <button class="package-btn border-0">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="body-common-clr">$300</h2>
+                                <h2 class="body-common-clr">Business fair</h2>
+                                <p class="text-muted">For most businesses event
+                                    like book fair, craft fair.</p>
+                                <p class="text-muted"><span><i class="far fa-check-circle tick-mark me-1"></i></span>
+                                    limited
+                                    space access</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>Secuirty
+                                    facility</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>event
+                                    support</p>
+                                <p class="text-muted"><span><i
+                                            class="far fa-check-circle tick-mark me-1"></i></span>Decoration design</p>
+                                <p class="text-muted"><span><i class="far fa-check-circle tick-mark me-1"></i></span>Per
+                                    day
+                                    bill</p>
+                                <button class="package-btn border-0">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- footer starts here  -->
     <footer>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quasi ratione sed, asperiores obcaecati
-        voluptatem et quas voluptatum ipsa sit officiis deserunt, unde consectetur, amet praesentium totam? Minus
-        numquam laborum veniam sit magnam dolor vel repudiandae impedit aliquid fugit minima dolorem, cum a molestias
-        inventore, corporis aperiam qui laudantium nesciunt.
+
+
     </footer>
 
 
@@ -96,6 +243,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <!-- bootstrap toast link  -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var toastElementList = [].slice.call(document.querySelectorAll(".toast"));
+            var toastList = toastElementList.map(function (element) {
+                return new bootstrap.Toast(element, {
+                    autohide: false
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
