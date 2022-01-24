@@ -59,6 +59,27 @@ nav{
     font-weight: 500;
     color:#3F87F5;
 }
+.card{
+    border-radius: 20px;
+}
+.hot-badge{
+    left: 75%;
+}
+/* provide section  */
+.provide{
+    margin-bottom: 90px;
+}
+.provide-bg{
+    background-color: #198754d7;
+}
+.provide img{
+    margin:0 auto;
+    max-width: 90px;
+}
+/* questions section starts here  */
+.questions{
+    margin-bottom: 90px;
+}
 
 
 
@@ -83,5 +104,8 @@ nav{
 @media (max-width: 768px) {
     .carousel-item img{
         min-height: calc(100vh - 90px);
+    }
+    .package-title{
+        margin-bottom: 40px;
     }
 }
